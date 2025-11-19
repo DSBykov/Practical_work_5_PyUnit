@@ -17,3 +17,7 @@ def calculator(a: float | int, b: float | int, operation: Operation) -> int | fl
             return a * b
         case operation.SUBTRACT:
             return a - b
+
+def is_even(num: int | float) -> bool:
+    return num % 2 == 0
+
